@@ -1,0 +1,128 @@
+/* Midnight Blue #145DA0 | Dark Blue #0C2D48 | Blue #2E8BC0 | Baby Blue #B1D4E0 */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Pathway+Gothic+One&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-image: linear-gradient(#ffffff,#2E8BC0);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    font-family: Orbitron, Arial, Helvetica, sans-serif;
+    background-color: #145DA0;
+    padding: 5px 0px;
+    margin: 0px;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+header > h1 {
+    margin: 4px;
+    padding: 10px;
+}
+
+nav {
+    padding-bottom: 5px;
+    color: white;
+}
+
+nav > a {
+    padding-right: 45px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:last-child {
+  padding-right: 0px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 0px 20px;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+section > h1 {
+    font-family: Orbitron, Arial, Helvetica, sans-serif;
+    font-size: 1.75em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+section > p {
+    text-align: justify;
+}
+
+section > ul {
+    column-count: 2;
+    text-align: justify;
+    padding: 20px;
+}
+
+section > ul > li {
+    text-align: justify;
+    list-style: none;
+    border: 5px;
+    border-color: black;
+}
+
+ul > li > h2 {
+    font-family: Orbitron, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+ol {
+    text-align: center;
+    list-style: none;
+    padding: 0px 30px;
+}
+
+ol > li {
+    border-style: solid;
+    border-color: #0C2D48;
+    border-width: 6px;
+    border-radius: 0px 55px;
+    box-shadow: 4px 4px 5px 0px #0000008f;
+}
+
+ol > li > h2 {
+  font-family: Orbitron, Arial, Helvetica, sans-serif;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol > li > IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 8px 8px 20px 0px black;
+}
+
+footer {
+    font-family: Orbitron, Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+footer > p {
+  margin: 0px;
+}
+
+footer > ul {
+    list-style: none;
+    padding: 0px;
+    margin: 18px 0px 0px 0px;
+    text-align:  center;
+}
